@@ -1,0 +1,67 @@
+index,precision,recall,f1-score,support,run_label
+high,0.0,0.0,0.0,5.0,basic
+low,0.0,0.0,0.0,23.0,basic
+medium,0.449,1.0,0.62,22.0,basic
+accuracy,0.44,0.44,0.44,0.44,basic
+macro avg,0.15,0.333,0.207,50.0,basic
+weighted avg,0.198,0.44,0.273,50.0,basic
+high,0.0,0.0,0.0,5.0,user
+low,0.0,0.0,0.0,23.0,user
+medium,0.449,1.0,0.62,22.0,user
+accuracy,0.44,0.44,0.44,0.44,user
+macro avg,0.15,0.333,0.207,50.0,user
+weighted avg,0.198,0.44,0.273,50.0,user
+high,0.0,0.0,0.0,5.0,agent
+low,0.0,0.0,0.0,23.0,agent
+medium,0.449,1.0,0.62,22.0,agent
+accuracy,0.44,0.44,0.44,0.44,agent
+macro avg,0.15,0.333,0.207,50.0,agent
+weighted avg,0.198,0.44,0.273,50.0,agent
+high,0.0,0.0,0.0,5.0,low_only
+low,0.0,0.0,0.0,23.0,low_only
+medium,0.449,1.0,0.62,22.0,low_only
+accuracy,0.44,0.44,0.44,0.44,low_only
+macro avg,0.15,0.333,0.207,50.0,low_only
+weighted avg,0.198,0.44,0.273,50.0,low_only
+high,0.0,0.0,0.0,5.0,low_and_high
+low,0.0,0.0,0.0,23.0,low_and_high
+medium,0.449,1.0,0.62,22.0,low_and_high
+accuracy,0.44,0.44,0.44,0.44,low_and_high
+macro avg,0.15,0.333,0.207,50.0,low_and_high
+weighted avg,0.198,0.44,0.273,50.0,low_and_high
+high,0.0,0.0,0.0,5.0,2_low
+low,0.0,0.0,0.0,23.0,2_low
+medium,0.449,1.0,0.62,22.0,2_low
+accuracy,0.44,0.44,0.44,0.44,2_low
+macro avg,0.15,0.333,0.207,50.0,2_low
+weighted avg,0.198,0.44,0.273,50.0,2_low
+high,0.0,0.0,0.0,5.0,2_low_w_criteria
+low,0.0,0.0,0.0,23.0,2_low_w_criteria
+medium,0.449,1.0,0.62,22.0,2_low_w_criteria
+accuracy,0.44,0.44,0.44,0.44,2_low_w_criteria
+macro avg,0.15,0.333,0.207,50.0,2_low_w_criteria
+weighted avg,0.198,0.44,0.273,50.0,2_low_w_criteria
+high,0.0,0.0,0.0,5.0,2_low_verbose_criteria
+low,0.0,0.0,0.0,23.0,2_low_verbose_criteria
+medium,0.449,1.0,0.62,22.0,2_low_verbose_criteria
+accuracy,0.44,0.44,0.44,0.44,2_low_verbose_criteria
+macro avg,0.15,0.333,0.207,50.0,2_low_verbose_criteria
+weighted avg,0.198,0.44,0.273,50.0,2_low_verbose_criteria
+high,0.0,0.0,0.0,5.0,2_low_COT
+low,0.0,0.0,0.0,23.0,2_low_COT
+medium,0.449,1.0,0.62,22.0,2_low_COT
+accuracy,0.44,0.44,0.44,0.44,2_low_COT
+macro avg,0.15,0.333,0.207,50.0,2_low_COT
+weighted avg,0.198,0.44,0.273,50.0,2_low_COT
+high,0.0,0.0,0.0,5.0,2_low_COT_statements
+low,0.0,0.0,0.0,23.0,2_low_COT_statements
+medium,0.449,1.0,0.62,22.0,2_low_COT_statements
+accuracy,0.44,0.44,0.44,0.44,2_low_COT_statements
+macro avg,0.15,0.333,0.207,50.0,2_low_COT_statements
+weighted avg,0.198,0.44,0.273,50.0,2_low_COT_statements
+high,0.0,0.0,0.0,5.0,cleaned
+low,0.0,0.0,0.0,23.0,cleaned
+medium,0.449,1.0,0.62,22.0,cleaned
+accuracy,0.44,0.44,0.44,0.44,cleaned
+macro avg,0.15,0.333,0.207,50.0,cleaned
+weighted avg,0.198,0.44,0.273,50.0,cleaned

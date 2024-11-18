@@ -1,0 +1,109 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy<1.12.0
+matplotlib==3.9.2
+seaborn
+scikit-learn==1.5.2
+networkx<3.0
+openai==1.54.4
+tiktoken==0.8.0
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+transformers==4.46.2
+spacy==3.8.2
+requests==2.32.3
+Pillow==11.0.0
+protobuf==5.28.3
+urllib3==2.2.3
+scikit-learn
+nltk
+spacy==3.8.2
+spacy[en_core_web_sm]
+vaderSentiment
+ipykernel
+pyyaml
+# absl-py==2.1.0
+# ace_tools==0.0
+# aiobotocore
+# aiohttp
+# aioitertools
+# aiosignal
+# altair
+# anyio
+# appdirs==1.4.4
+# appnope==0.1.4
+# argon2-cffi
+# attrs==24.2.0
+# black
+# bleach
+# botocore
+# cachetools
+# catalogue==2.0.10
+# certifi
+# cffi
+# charset-normalizer==3.4.0
+# cloudpickle
+# colorama
+# cycler==0.12.1
+# dash
+# dash-core-components
+# dash-html-components
+# dash-table
+# dask
+# datashader
+# debugpy==1.8.8
+# decorator
+# docutils
+# fsspec==2024.10.0
+# gensim
+# grpcio==1.67.1
+# h5py==3.12.1
+# idna==3.10
+# jedi==0.19.2
+# jupyter
+# jupyter_client
+# jupyter_core
+# jupyter_server
+# jupyterlab
+# jupyterlab_widgets
+# langcodes==3.4.1
+# lxml
+# matplotlib==3.9.2
+# ml-dtypes==0.4.1
+# nbclient
+# nbconvert
+# nbformat
+# # networkx==3.4.2
+# networkx < 3.0
+# notebook
+# numpy==1.26.4
+# openai==1.54.4
+# opencv-python==4.10.0.84
+# pandas==2.2.3
+# Pillow==11.0.0
+# prompt_toolkit==3.0.48
+# protobuf==5.28.3
+# psutil==6.1.0
+# pyarrow
+# pydantic==2.9.2
+# pytest
+# python-dateutil
+# pytz==2024.2
+# PyYAML==6.0.2
+# requests==2.32.3
+# scikit-learn==1.5.2
+# # scipy==1.14.1
+# scipy<1.12.0
+# seaborn
+# spacy==3.8.2
+# srsly==2.4.8
+# tiktoken==0.8.0
+# torch==2.5.1
+# torchaudio==2.5.1
+# torchvision==0.20.1
+# tornado
+# transformers==4.46.2
+# typing_extensions==4.12.2
+# urllib3==2.2.3
+# zstandard
