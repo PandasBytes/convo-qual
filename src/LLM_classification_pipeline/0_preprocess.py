@@ -44,56 +44,6 @@ FOR_EVAL_PATH = "/Users/RiRi/Desktop/github/convo-quality/data/LLM_ingest/convid
 # ========================
 # Conversation Preprocessing
 # ========================
-def process_conversation_data_debug(file_path):
-    """
-    Processes raw conversation data to extract conversation turns and calculate average ratings.
-
-    Args:
-        file_path (str): Path to the raw conversation data file.
-
-    Returns:
-        pd.DataFrame: Processed conversation data as a DataFrame.
-    """
-    with open(file_path, "r", encoding="utf-8") as file:
-        lines = file.readlines()
-
-    conversations = []
-    conversation_id = 1
-    conversation_text = []
-
-    for idx, line in enumerate(lines):
-        line = line.strip()
-
-        if not line:  # Skip empty lines
-            continue
-
-        parts = line.split("\t")
-
-        # Process conversation turns
-        if line.startswith("USER") or line.startswith("SYSTEM"):
-            if len(parts) >= 2:
-                speaker = parts[0]
-                text = parts[1].replace("\n", "").strip()
-                conversation_text.append(f"{speaker} {text}")
-
-        # Process overall ratings
-        if line.startswith("USER\tOVERALL"):
-            try:
-                overall_ratings = list(map(int, parts[3].split(",")))
-                convo_avg = round(sum(overall_ratings) / len(overall_ratings), 2)
-                conversations.append({
-                    "conv_id": conversation_id,
-                    "conv_text": "\n".join(conversation_text),
-                    "average_rating": convo_avg,
-                })
-                conversation_id += 1
-                conversation_text = []
-            except (IndexError, ValueError) as e:
-                print(f"Error processing OVERALL line {idx + 1}: {line}")
-                print(f"Error details: {e}")
-
-    return pd.DataFrame(conversations)
-
 
 # Process the raw conversation data
 conversation_df = process_conversation_data_debug(RAW_DATA_PATH)

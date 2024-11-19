@@ -31,6 +31,7 @@ Output Files:
 import openai
 import pandas as pd
 import warnings
+warnings.filterwarnings("ignore")
 from datetime import datetime
 import yaml
 from utils import (
@@ -41,7 +42,7 @@ from utils import (
     combine_pred_and_actual_scores,
 )
 
-warnings.filterwarnings("ignore")
+
 
 # ========================
 # Constants
@@ -52,11 +53,6 @@ PROMPTS_PATH = 'prompts.yaml'
 LABELED_DATA_PATH = "/Users/RiRi/Desktop/github/convo-quality/data/LLM_ingest/convid_w_satisfaction_rating.csv"
 OUTPUT_PATH_TEMPLATE = "/Users/RiRi/Desktop/github/convo-quality/data/output/LLM/{model_name}/sample_scored_PROMPT{label}.csv"
 LOG_FILE = "logs/batch_log.txt"
-
-# #gpt4
-# OUTPUT_PATH_TEMPLATE = "/Users/RiRi/Desktop/github/convo-quality/data/output/LLM/gpt4/sample_scored_PROMPT{label}.csv"
-# LOG_FILE = "logs/batch_log.txt"
-
 
 # ========================
 # Main Script

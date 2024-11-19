@@ -3,6 +3,14 @@
 
 This repository contains scripts and data to preprocess, analyze, and evaluate the quality of task-oriented conversations, with a focus on MultiWOZ.
 
+## Running LLM Code
+  ```bash
+  cd src/LLM_classification_pipeline
+  python 0_preprocess.py
+  python 1_predict.py
+  python 2_evaluate.py 
+```
+
 ## Folder Structure
     ├── data/                                       # Directory for storing raw and processed data
     │   ├── raw/                                    # Original data files (e.g. MultiWOZ dataset)
@@ -27,18 +35,8 @@ This repository contains scripts and data to preprocess, analyze, and evaluate t
     ├── README.md                                   # Documentation for the project
     ├── requirements.txt                            # List of Python dependencies
 
-## Running Code
-  ```bash
-  python src/0_preprocess.py
-  python src/1_feature_eng.py
-```
-Setup Env + Install dependencies using:
-  ```bash
-  python -m venv myvenv
-  source myenv/bin/activate
-  source /Users/RiRi/Desktop/github/convo-quality/myenv/bin/activate
-  pip install -r requirements.txt
-```
+
+Analyze results using ```analysis_eval_and_errors.ipynb```
 
 ## Example EDA Visuals
 generated in ```1B_NonLLM_Convo_Satisfaction.ipynb```
