@@ -1,0 +1,92 @@
+index,precision,recall,f1-score,support,run_label
+high,0.112,0.4,0.175,25.0,basic
+low,0.518,0.37,0.431,119.0,basic
+medium,0.411,0.267,0.324,86.0,basic
+accuracy,0.335,0.335,0.335,0.335,basic
+macro avg,0.347,0.346,0.31,230.0,basic
+weighted avg,0.434,0.335,0.363,230.0,basic
+high,0.092,0.233,0.132,30.0,user
+low,0.531,0.432,0.476,139.0,user
+medium,0.389,0.318,0.35,110.0,user
+accuracy,0.366,0.366,0.366,0.366,user
+macro avg,0.337,0.328,0.319,279.0,user
+weighted avg,0.428,0.366,0.389,279.0,user
+high,0.088,0.346,0.141,26.0,agent
+low,0.563,0.288,0.381,139.0,agent
+medium,0.423,0.393,0.407,112.0,agent
+accuracy,0.336,0.336,0.336,0.336,agent
+macro avg,0.358,0.342,0.31,277.0,agent
+weighted avg,0.462,0.336,0.369,277.0,agent
+high,0.139,0.2,0.164,25.0,low_only
+low,0.566,0.517,0.54,149.0,low_only
+medium,0.412,0.419,0.415,117.0,low_only
+accuracy,0.45,0.45,0.45,0.45,low_only
+macro avg,0.372,0.379,0.373,291.0,low_only
+weighted avg,0.467,0.45,0.458,291.0,low_only
+high,0.095,0.269,0.14,26.0,low_and_high
+low,0.577,0.298,0.393,151.0,low_and_high
+medium,0.396,0.482,0.435,114.0,low_and_high
+accuracy,0.368,0.368,0.368,0.368,low_and_high
+macro avg,0.356,0.35,0.323,291.0,low_and_high
+weighted avg,0.463,0.368,0.387,291.0,low_and_high
+high,0.105,0.08,0.091,25.0,2_low
+low,0.571,0.686,0.623,153.0,2_low
+medium,0.495,0.39,0.436,118.0,2_low
+accuracy,0.517,0.517,0.517,0.517,2_low
+macro avg,0.39,0.385,0.383,296.0,2_low
+weighted avg,0.501,0.517,0.504,296.0,2_low
+conversation 159: low,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 310: medium,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 322: low,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 430: medium,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 463: medium,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 644: medium,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 823: low,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 942: low,0.0,0.0,0.0,0.0,2_low_w_criteria
+conversation 978: low,0.0,0.0,0.0,0.0,2_low_w_criteria
+high,0.103,0.154,0.123,26.0,2_low_w_criteria
+low,0.538,0.527,0.532,148.0,2_low_w_criteria
+medium,0.422,0.355,0.386,121.0,2_low_w_criteria
+accuracy,0.424,0.424,0.424,0.424,2_low_w_criteria
+macro avg,0.089,0.086,0.087,295.0,2_low_w_criteria
+weighted avg,0.452,0.424,0.436,295.0,2_low_w_criteria
+conversation 437: medium,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+conversation 64: low,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+conversation 717: medium,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+conversation 765: low,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+conversation 788: low,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+conversation 827: medium,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+conversation 89: low,0.0,0.0,0.0,0.0,2_low_verbose_criteria
+high,0.121,0.304,0.173,23.0,2_low_verbose_criteria
+low,0.571,0.53,0.55,151.0,2_low_verbose_criteria
+medium,0.423,0.303,0.353,109.0,2_low_verbose_criteria
+accuracy,0.424,0.424,0.424,0.424,2_low_verbose_criteria
+macro avg,0.112,0.114,0.108,283.0,2_low_verbose_criteria
+weighted avg,0.478,0.424,0.443,283.0,2_low_verbose_criteria
+high,0.105,0.25,0.148,24.0,2_low_COT
+low,0.582,0.467,0.518,152.0,2_low_COT
+medium,0.438,0.426,0.432,115.0,2_low_COT
+accuracy,0.433,0.433,0.433,0.433,2_low_COT
+macro avg,0.375,0.381,0.366,291.0,2_low_COT
+weighted avg,0.486,0.433,0.454,291.0,2_low_COT
+3 (low),0.0,0.0,0.0,0.0,2_low_COT_statements
+6 (low),0.0,0.0,0.0,0.0,2_low_COT_statements
+7 (low),0.0,0.0,0.0,0.0,2_low_COT_statements
+8 (low),0.0,0.0,0.0,0.0,2_low_COT_statements
+9 (low),0.0,0.0,0.0,0.0,2_low_COT_statements
+high,0.078,0.148,0.103,27.0,2_low_COT_statements
+low,0.548,0.483,0.513,143.0,2_low_COT_statements
+medium,0.48,0.415,0.445,118.0,2_low_COT_statements
+accuracy,0.424,0.424,0.424,0.424,2_low_COT_statements
+macro avg,0.138,0.131,0.133,288.0,2_low_COT_statements
+weighted avg,0.476,0.424,0.447,288.0,2_low_COT_statements
+1. low,0.0,0.0,0.0,0.0,cleaned
+2. low,0.0,0.0,0.0,0.0,cleaned
+2. medium,0.0,0.0,0.0,0.0,cleaned
+3. high,0.0,0.0,0.0,0.0,cleaned
+high,0.105,0.083,0.093,24.0,cleaned
+low,0.639,0.521,0.574,146.0,cleaned
+medium,0.486,0.591,0.533,115.0,cleaned
+accuracy,0.512,0.512,0.512,0.512,cleaned
+macro avg,0.176,0.171,0.171,285.0,cleaned
+weighted avg,0.532,0.512,0.517,285.0,cleaned

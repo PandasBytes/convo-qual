@@ -1,0 +1,5 @@
+Transition,Frequency (%)
+Taxi-Inform -> Taxi-Request,29.973474801061005
+Taxi-Request -> Taxi-Inform,34.217506631299734
+Taxi-Inform -> Taxi-Inform,24.93368700265252
+Taxi-Request -> Taxi-Request,10.875331564986737
